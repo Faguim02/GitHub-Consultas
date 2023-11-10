@@ -1,0 +1,23 @@
+.container{
+    height: 150px;
+    box-shadow: 0 0 5px black;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #3D3B3C;
+    border-radius: 7px;
+}
+
+.container img{
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.container a{
+    font-size: 20pt;
+    color: #FFFDFD;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
